@@ -28,7 +28,7 @@ while row < N_TRIES:
     options.add_argument('log-level=3')
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
     link_template = f'https://xymu.github.io/maple.watch/#GMS-Reboot'
-    driver = webdriver.Chrome(r'D:\chromedriver.exe', options=options) ###########################THIS IS WHERE YOU EDIT THE FILE PATH TO BE FOR YOUR CHROMEDRIVER
+    driver = webdriver.Chrome(r'chromedriver.exe', options=options) ###########################THIS IS WHERE YOU EDIT THE FILE PATH TO BE FOR YOUR CHROMEDRIVER
     driver.get(link_template)
     no = 4.5
     try:
@@ -106,4 +106,4 @@ for idx, row in enumerate(np.transpose(matr[:,[int(x-1) for x in lowvar_channels
     plt.ylabel("User localized ping/ms")
 plt.savefig(fname='plot')
 plt.show()
-os.remove('plot.png') ############
+# os.remove('plot.png') ############
