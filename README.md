@@ -26,6 +26,9 @@ And you would be right, if ping maintained its own value over time in each chann
 
 
 Below is a example execution for 100 ping samples from Singapore executed at about 1:41am, which took about 40min to execute in total. On one hand, it could be argued that a quicker execution would be advantageous. However, the lengthier time period in which this ping data is gathered is a more sincere extraction of the troughs and peaks of channels' pings and their variances, which was the impetus of the client's desire for ping analysis. A future implementation of this with a low level language in an attempt to speed up this process may regardless, be attempted.
+
+
 ![Channels out of 1-30 for maplestory that showed below 150 standard deviation](https://user-images.githubusercontent.com/100022747/210152841-daf7dcab-dcfe-49da-8c78-f4f2481f2831.png)
 
 
+Only channels 1-4 demonstrated a standard deviation below 150 as requested by the user in this example, so only the ping data of those 4 channels were plotted in this output.
