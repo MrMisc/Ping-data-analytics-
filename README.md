@@ -21,3 +21,12 @@ Refreshing this page allows you to see your own instantaneous ping at any point 
 And you would be right, if ping maintained its own value over time in each channel. If Channel 4 always had the lowest ping consistently versus the other channels, that would be true. And it does, on average. However, my mates and I are very certain that average ping does not determine the quality of a channel, the ping variance also is a significant factor. In simpler terms, how squiggly or how much the ping value of a channel spikes up or drops down arbitrarily is a significant factor that can affect how consistently you can utilise and time your skills. 
 
 I believe you need to see how the ping changes over time for numerous instances for the players to then make an inference on what channel is the most stable for them. ALL MY CODE IS DOING, IS OPENING YOUR BROWSER (HEADLESS), GOING TO THE LINK ABOVE, EXTRACTING THE PING INFORMATION FOR EACH CHANNEL, AND SAVING IT. IT DOES THIS A NUMBER OF TIMES, BEFORE IT PLOTS THEM
+--------------------------------------------- 
+
+## Execution | Pingfinder.py
+
+
+Below is a example execution for 100 ping samples from Singapore executed at about 1:41am, which took about 40min to execute in total. On one hand, it could be argued that a quicker execution would be advantageous. However, the lengthier time period in which this ping data is gathered is a more sincere extraction of the troughs and peaks of channels' pings and their variances, which was the impetus of the client's desire for ping analysis. A future implementation of this with a low level language in an attempt to speed up this process may regardless, be attempted.
+![Channels out of 1-30 for maplestory that showed below 150 standard deviation](https://user-images.githubusercontent.com/100022747/210152841-daf7dcab-dcfe-49da-8c78-f4f2481f2831.png)
+
+
