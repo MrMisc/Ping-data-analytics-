@@ -18,7 +18,7 @@ Please take note however, that the user should seek to determine for themselves 
 
 Refreshing this page allows you to see your own instantaneous ping at any point in time, and some of you might even be thinking, "well then I would only care about the ping value I see on this page at this instant, no?!".
 
-And you would be right, if ping maintained its own value over time in each channel. If Channel 4 always had the lowest ping consistently versus the other channels, that would be true. And it does, on average. However, my mates and I are very certain that average ping does not determine the quality of a channel, the ping variance also is a significant factor. In simpler terms, how squiggly or how much the ping value of a channel spikes up or drops down arbitrarily is a significant factor that can affect how consistently you can utilise and time your skills. 
+And you would be right, if ping maintained its own value over time in each channel. If Channel 4 always had the lowest ping consistently versus the other channels, that would be true. And it does, on average. However, I are very certain that average ping does not determine the quality of a channel, the ping variance also is a significant factor. In simpler terms, how squiggly or how much the ping value of a channel spikes up or drops down arbitrarily is a significant factor that can affect how consistently you can utilise and time your skills. 
 
 --------------------------------------------- 
 
